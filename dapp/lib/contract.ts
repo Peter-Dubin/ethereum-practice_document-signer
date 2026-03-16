@@ -12,8 +12,8 @@ export const CONTRACT_ABI = [
   "event DocumentVerified(bytes32 indexed documentHash, bool isValid)"
 ];
 
-// Contract address - will be updated after deployment
-export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '0x0000000000000000000000000000000000000000';
+// Contract address - deployed to Anvil
+export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '0x5FbDB2315678afecb367f032d93F642f64180aa3';
 
 // RPC URL for connecting to local blockchain
 export const RPC_URL = process.env.NEXT_PUBLIC_RPC_URL || 'http://localhost:8545';
